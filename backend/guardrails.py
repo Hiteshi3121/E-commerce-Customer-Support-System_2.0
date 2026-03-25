@@ -209,7 +209,7 @@ def check_output(
         # ── 1. Order ID format validator ─────────────────────────────
         # Any ORD- reference in the response must be well-formed.
         # Malformed IDs indicate hallucination (LLM made up an order ID).
-        order_ids_in_response = re.findall(r"ORD-[^\s\"'.,!?]*", response)
+        order_ids_in_response = re.findall(r"ORD-[A-Za-z0-9]+", response)
         for oid in order_ids_in_response:
             if not _ORDER_ID_PATTERN.fullmatch(oid):
                 warnings.append(f"malformed_order_id: {oid}")
