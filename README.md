@@ -3,6 +3,9 @@
 An agentic e-commerce customer support chatbot built with **LangGraph**, **FastAPI**, and **Streamlit**. NovaCart handles the full customer journey — browsing products, placing orders, tracking shipments, raising returns, and answering FAQs — through a multi-agent workflow with built-in guardrails and observability.
 
 ---
+
+output Screen recording - https://drive.google.com/file/d/1y9YjC5-Rg7Za3aXGNonIVEBGRvws_Ntz/view?usp=sharing
+
 <img width="1700" height="877" alt="image" src="https://github.com/user-attachments/assets/651c8f4e-b95c-482c-9f77-f83f9c8a8356" />
 <img width="1688" height="793" alt="image" src="https://github.com/user-attachments/assets/33a5e4be-d890-4b9b-b4b8-11843ce46bc4" />
 <img width="1685" height="820" alt="image" src="https://github.com/user-attachments/assets/02e33dd1-cf54-4d87-8b30-0dfc268d4974" />
